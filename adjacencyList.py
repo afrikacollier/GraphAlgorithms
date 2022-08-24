@@ -69,11 +69,11 @@ class Graph{
     this.adjacencyList[node2].push(node1);
   }
 }
-
-const myGraph = new Graph();
-myGraph.addNode("");
-myGraph.addNode("");
-myGraph.addNode("");
-myGraph.addNode("");
-myGraph
+for (node of edges)
+{
+  const [a, b] = node
+  myGraph.addNode(a);
+  myGraph.addNode(b);
+  myGraph.addEdge(a, b);
+}
 """
