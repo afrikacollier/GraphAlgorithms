@@ -1,6 +1,3 @@
-// Online Javascript Editor for free
-// Write, Edit and Run your Javascript code using JS Online Compiler
-
 // edges = [[0, 1], [0, 4], [1, 2], [1, 3], [1, 4], [2, 3],  [3, 4]]
 
 const edges = [
