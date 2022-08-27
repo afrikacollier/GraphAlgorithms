@@ -1,4 +1,12 @@
 /*
+        0 -------- 1
+        |        / | \
+        |      /   |  \                                                                                      |     /    |   \                                                                                     |   /      |    2
+        |  /       |   /
+        |/         | /                                                                              
+	4 ---------3
+*/
+/*
     Queue = []
     Points = []
     Queue.enqueue(StartingPoint)
