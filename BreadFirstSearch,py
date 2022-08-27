@@ -59,7 +59,7 @@
 # Also the method works for both directed graphs and undirected graphs as far as the adjacency List is implemented correctly
 
 
-# Implementation Iteration.
+# Implementation Using Iteration.
 
 def bfs(adjList, root):
     queue = []
@@ -71,8 +71,30 @@ def bfs(adjList, root):
         currentValue = queue.pop(0)
         points.append(currentValue)
         
-        while neighbors in adjList[currentValue]:
+        for neighbors in adjList[currentValue]:
             if neighbors not in visited:
                 queue.append(neighbors)
                 visited.add(neighbors)
     return points
+    
+# Undirected graphs
+# adjList = {
+#     0: [1, 4],
+#     1: [0, 2, 3, 4],
+#     4: [0, 1, 3],
+#     2: [1, 3],
+#     3: [1, 2, 4]
+# }
+
+
+# Output [0, 1, 4, 2, 3]
+
+# Directed Graphs
+adjList = {
+    0: [1, 4],
+    1: [2, 3, 4],
+    4: [],
+    2: [3],
+    3: [4]
+}
+print(bfs(adjList, 0))
