@@ -3,9 +3,9 @@ Implementing breadth first search... involves taking into consideration the near
 For instance consider the points
 
 <img src="https://i.imgur.com/rgMwkIW.png" style="width=100%; object-fit:contain;">
-Using bread first search we print out the nearest points before going for the deeper points.
+_Using bread first search we print out the nearest points before going for the deeper points.
 We get the following points using breadth first search...
-Suppose we set 0 as our starting point..  Then we have
+Suppose we set 0 as our starting point..  Then we have_
 `0 1 4 2 3...`
 ## Explanation...
 To use breadth first search we use a queue system... because in a queue.. the First element that go
