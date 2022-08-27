@@ -1,12 +1,16 @@
 # Breadth First Search
-Implementing breadth first search... involves taking into consideration the nearest edges before going deeper.                                                                                           
+Implementing breadth first search involves taking into consideration the nearest edges before going deeper.                                                                                           
 For instance consider the points
 
 <img src="https://i.imgur.com/rgMwkIW.png" style="width=100%; object-fit:contain;">
+
+
 _Using bread first search we print out the nearest points before going for the deeper points.
-We get the following points using breadth first search...
+We get the following points using breadth first search
 Suppose we set 0 as our starting point..  Then we have_
 `0 1 4 2 3...`
+
+
 ## Explanation...
 To use breadth first search we use a queue system... because in a queue.. the First element that go
 es in will the first to go out which is the perfect method we need to solve this problem since we need to account for the nearest elements before the deeper ones                                          Demonstrating the idea.. from the Example below..
